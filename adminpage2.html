@@ -1,0 +1,36 @@
+<html>
+<head>
+  <title> HOME QUARANTINE DETAILS </title>
+  <link rel="stylesheet" type="text/css" href="./adminpage2.css">
+  <style>
+	a{
+      text-decoration: none;
+	  color:white;
+    }
+    button{
+       margin-left: 20px;
+       font-size: 17px;
+    }
+  </style>
+  </head>
+<body>
+	<h3 align ="right">
+                <font face="cinzel">
+                    <button class="a1"><a href="index.html">HOME</a></button>&nbsp;&nbsp;&nbsp;&nbsp;
+                </font>
+        </h3>
+  <div class="quarantinebox">
+    <h1> Quarantine Details </h1>
+  <form action="connect2.php" method="post">
+  <p>Person ID: </p> <input type ="text" name="person_id" placeholder="Person ID" required>
+  <p>Name:</p> <input type ="text" name="name" placeholder="Name" required>
+  <p>Age:</p> <input type ="text" name="age" placeholder="Age" required>
+  <p>Start Date:</p>  <input type ="text" name="start_date" placeholder="Start Date" required>
+  <p>End Date:</p>  <input type ="text" name="end_date" placeholder="End Date" required>
+  <p>Address:</p> <input type ="text" name="address" placeholder="Address" required>
+  <p>Phone:</p> <input type ="text" name="phone" placeholder="Phone" required>
+  <p>Pin Code:</p> <input type ="text" name="pincode" placeholder="Pin Code" required>
+    <input type ="submit">
+  </body>
+  </html>
+

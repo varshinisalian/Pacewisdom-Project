@@ -1,0 +1,26 @@
+
+body{
+  margin: 0;
+  padding: 0;
+  background: url('./userpage.JPG');
+  background-size: cover;
+  background-position: center;
+  font-family: sans-serif;
+  color:white;
+
+  }
+h1{
+  font-size: 50px;
+}
+  
+.a1{
+  background: white;
+  border: 2px solid blue;
+  color: #ff0000;
+  width: 100px;
+  height: 30px;
+  cursor: pointer;
+  font-size: 16px;
+  
+}
+  

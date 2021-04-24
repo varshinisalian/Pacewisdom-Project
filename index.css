@@ -1,0 +1,35 @@
+* {
+  padding:0;
+  margin:1;
+  font-family:sans-serif;
+  font-color: #FFFAFA;
+}
+body{
+     margin: 0;
+     padding: 0;
+     background: url('heartbeat.jpg');
+     /* background-size: cover; */
+     background-position: center;
+     font-family: sans-serif;
+     
+}
+.jik{
+  font-size: 20px;
+  text-align: center;
+  margin: 40px;
+}
+.login-button{
+  margin-left: 50px;
+  
+}
+h4{
+  margin-left:53px;
+}
+h1{
+  font-size: 50px;
+  margin-left: 40px;
+}
+a{
+  text-decoration: none;
+}
+

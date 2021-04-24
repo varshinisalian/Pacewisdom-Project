@@ -1,0 +1,107 @@
+body{
+     margin: 0;
+     padding: 0;
+     background: url('./user1.jpg') ;
+     background-size: cover;
+     background-position: center;
+     font-family: sans-serif;
+}
+.a1{
+  background: black;
+  border: 2px solid white;
+  color: #ff0000;
+  width: 150px;
+  height: 50px;
+  cursor: pointer;
+  font-size: 16px;
+  
+}
+.someclass {
+    border-collapse: collapse;
+    margin: 40px -100px;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.someclass thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+}
+
+.someclass th,
+.someclass td {
+    padding: 12px 15px;
+}
+.someclass tbody tr {
+    border-bottom: 1px solid #dddddd;
+	background-color: #f3f3f3;
+}
+
+.someclass tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.someclass tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+.someclass tbody tr.active-row {
+    font-weight: bold;
+    color: #009879;
+}
+.searchbox{
+  width: 300px;
+  height: 200px;
+  background: #000;
+  color : #fff;
+  top: 35%;
+  left: 50%;
+  position:absolute ;
+  transform: translate(-50%,-50%);
+  box-sizing: border-box;
+  padding: 30px 30px;
+
+}
+h1{
+  margin: 0;
+  margin-top: 20px;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 22px;
+  color:beige;
+}
+.searchbox input{
+  width: 100%;
+  margin-bottom: 20px;
+  
+
+}
+.searchbox input[type="text"]
+{
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: #fff;
+  font-size: 16px;
+  
+}
+.searchbox input[type"submit"]
+{
+  border: none;
+  outline: none;
+  height: 100px;
+  background: #fb2525;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 30px;
+}
+
+.searchbox input[type="submit"]:hover
+{
+  cursor: pointer;
+  background: #ffc107;
+  color: #000;
+}
